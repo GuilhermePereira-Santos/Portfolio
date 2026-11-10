@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,17 +12,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <!-- <link rel="icon" type="image/svg+xml" href="favicon.svg"> -->
+     <link rel="icon" type="image/png" href="logosemfundo.png">
 </head>
+
 <body>
     <header class="d-flex justify-content-between align-items-center">
-        <a href="#inicio" class="logo">
+        <!-- <a href="#inicio" class="logo">
             <i class="fa-solid fa-code"></i>
             Guilherme Pereira
-        </a> 
+        </a> -->
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="logosemfundo.png" alt="Logo Guilherme Pereira" class="logo-navbar">
+            <span class="logo">Guilherme Pereira</span>
+        </a>
 
         <nav class="d-flex align-items-center">
             <a href="#inicio" class="active">Início</a>
@@ -42,18 +50,24 @@
             <h1>Olá, eu sou <span>Guilherme Pereira</span></h1>
             <h3 class="typing-text">Eu sou um <span></span></h3>
             <p>
-                Curioso por natureza e apaixonado por tecnologia.
-                Gosto de aprender, criar projetos e descobrir novas possibilidades através da programação.
-                Estou no início da minha jornada e tenho muito a construir.
+                Atualmente estudante do Ensino Médio integrado ao curso técnico em Desenvolvimento de Sistemas, tenho
+                interesse por tecnologia e programação.
+                Tendo 16 anos, busco oportunidades para aprender, crescer e contribuir com projetos inovadores.
             </p>
 
             <div class="social-icons">
-                <a href="https://www.instagram.com/guipdev?rptxt=Y3NhcWdieTg4b2ph" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/guilherme-pereira-2783b53a6/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/GuilhermePereira-Santos" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/guipdev?rptxt=Y3NhcWdieTg4b2ph" target="_blank"
+                    rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/guilherme-pereira-2783b53a6/" target="_blank"
+                    rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/GuilhermePereira-Santos" target="_blank" rel="noopener noreferrer"
+                    aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
             </div>
-
-            <a href="https://wa.me/5512983160096?text=Seu%20nome%3A%20%0AO%20que%20deseja%3A%20" class="btn btn-portfolio">Contrate-me</a>
+            <!-- target="_blank" -->
+            <a href="#contato" class="btn btn-portfolio whatsapp-link">
+                Contrate-me
+                <span class="whatsapp-tooltip">(12) 98316-0096</span>
+            </a>
         </div>
     </section>
 
@@ -65,10 +79,13 @@
                 <div class="col-md-6">
                     <h3>Quem sou eu?</h3>
                     <p>
-                        Meu nome é <span>Guilherme Pereira</span>, sou estudante do Ensino Médio integrado ao curso técnico em Desenvolvimento de Sistemas na ETEC de São Sebastião.
+                        Meu nome é <span>Guilherme Pereira</span>, sou estudante do Ensino Médio integrado ao curso
+                        técnico em Desenvolvimento de Sistemas na ETEC de São Sebastião.
                     </p>
                     <p>
-                        Tenho interesse por tecnologia, programação, criação de sites/sistemas e desenvolvimento de projetos. Gosto de aprender novas habilidades, explorar ideias e transformar problemas em soluções reais.
+                        Tenho interesse por tecnologia, programação, criação de sites/sistemas e desenvolvimento de
+                        projetos. Gosto de aprender novas habilidades, explorar ideias e transformar problemas em
+                        soluções reais.
                     </p>
                 </div>
 
@@ -103,8 +120,10 @@
                         <i class="fa-solid fa-code"></i>
                         <h3>Portfólio Pessoal</h3>
                         <p>
-                            Desenvolvimento de uma página pessoal utilizando HTML, CSS e o framework Bootstrap, com foco em apresentação, organização e responsividade.
-                            Para destacar meus projetos, habilidades e experiências de forma clara e atrativa utilizando os meus conhecimentos de programação que tenho até este momento.
+                            Desenvolvimento de uma página pessoal utilizando HTML, CSS e o framework Bootstrap, com foco
+                            em apresentação, organização e responsividade.
+                            Para destacar meus projetos, habilidades e experiências de forma clara e atrativa utilizando
+                            os meus conhecimentos de programação que tenho até este momento.
                         </p>
                         <span>HTML • CSS • Bootstrap</span>
                     </div>
@@ -115,8 +134,11 @@
                         <i class="fa-solid fa-microchip"></i>
                         <h3>Batalha de Rôbos</h3>
                         <p>
-                            Estudos sobre sistemas embarcados, componentes eletrônicos e programação de placas Arduino e ESP32.
-                            Com foco em produzir um rôbo em MDF utilizando as placas com grupos de alunos em trabalho em conjunto a outros grupos, para batalhar contra outra sala.
+                            Estudos sobre sistemas embarcados, componentes eletrônicos e programação de placas Arduino e
+                            ESP32.
+                            Com foco em produzir um robô em MDF utilizando as placas e materiais pré-selecionados para
+                            construi-lo, com grupos de alunos em
+                            conjunto a outros alunos, para batalhar contra outra sala.
                         </p>
                         <span>Arduino • Lógica • ESP32</span>
                     </div>
@@ -127,8 +149,11 @@
                         <i class="fa-solid fa-computer"></i>
                         <h3>NTI - Núcleo de Tecnologia da Informação</h3>
                         <p>
-                            Otimizamos sistema de inscrição e consulta para estudantes que querem ingressar à ETEC que não conseguiram passar na primeira prova <span>(Remanescente)</span>.
-                            Utilizando PHP, HTML, CSS e SQL foi produzido o sistema/site com grupo do 3ºAno em conjunto ao meu grupo de 1ºano para finalizar mudanças e atualizações do sistema passado.
+                            Otimizamos sistema de inscrição e consulta para estudantes que querem ingressar à ETEC que
+                            não conseguiram passar na primeira prova <span>(Sistema do Remanescentes)</span>.
+                            Utilizando PHP, HTML, CSS e MySQL foi produzido o sistema/site com grupo do 3ºAno em
+                            conjunto
+                            ao meu grupo de 1ºano para finalizar mudanças e atualizações do sitema passado.
                         </p>
                         <span>MySQL • PHP • GitHub</span>
                     </div>
@@ -139,8 +164,10 @@
                         <i class="fa-solid fa-lightbulb"></i>
                         <h3>FatecLog - 2026</h3>
                         <p>
-                            Produção de um projeto criativo escrito para o FatecLog, onde é conhecido como um evento de destaque no cenário acadêmico e profissional da Logística.
-                            Neste projeto, com um grupo de 4 membros, desenvolvemos um projeto tecnológico que visa otimizar processos de emergência e a eficiência operacional
+                            Produção de um projeto criativo escrito para o FatecLog, onde é conhecido como um evento de
+                            destaque no cenário acadêmico e profissional da Logística.
+                            Neste projeto, com um grupo de 4 membros, desenvolvemos um projeto tecnológico que visa
+                            otimizar processos de emergência e a eficiência operacional
                             utilizando um drone com I.A. para os bombeiros e sistema de segurança da prefeitura.
                         </p>
                         <span>Pesquisa • Criatividade • Tecnologia</span>
@@ -167,7 +194,8 @@
                             Remanescente - Registro
                         </button>
                         <br>
-                        <p class="text-center text-red">Todos os Direitos Reservados a Guilherme Pereira © • 2026</p>
+                        <p class="text-center text-red">© 2026 • Guilherme Pereira Dos Santos Silva. Todos os direitos
+                            reservados.</p>
                     </div>
                 </div>
 
@@ -185,22 +213,30 @@
 
                     <div class="skill">
                         <div class="skill-info"><span>PHP</span><span>55%</span></div>
-                        <div class="progress"><div class="progress-bar" data-width="55%"></div></div>
+                        <div class="progress">
+                            <div class="progress-bar" data-width="55%"></div>
+                        </div>
                     </div>
 
                     <div class="skill">
                         <div class="skill-info"><span>MySQL</span><span>35%</span></div>
-                        <div class="progress"><div class="progress-bar" data-width="35%"></div></div>
+                        <div class="progress">
+                            <div class="progress-bar" data-width="35%"></div>
+                        </div>
                     </div>
 
                     <div class="skill">
                         <div class="skill-info"><span>HTML</span><span>65%</span></div>
-                        <div class="progress"><div class="progress-bar" data-width="65%"></div></div>
+                        <div class="progress">
+                            <div class="progress-bar" data-width="65%"></div>
+                        </div>
                     </div>
 
                     <div class="skill">
                         <div class="skill-info"><span>CSS</span><span>52%</span></div>
-                        <div class="progress"><div class="progress-bar" data-width="52%"></div></div>
+                        <div class="progress">
+                            <div class="progress-bar" data-width="52%"></div>
+                        </div>
                     </div>
 
                 </div>
@@ -247,7 +283,25 @@
                     <h3>ETEC de São Sebastião</h3>
                     <h4>Ensino Médio Integrado ao Curso Técnico em Desenvolvimento de Sistemas</h4>
                     <p>
-                        Atualmente cursando o 1º ano, desenvolvendo conhecimentos em programação, tecnologia, lógica computacional e desenvolvimento de sistemas.
+                        Atualmente cursando o 1º ano, desenvolvendo conhecimentos em programação, tecnologia, lógica
+                        computacional e desenvolvimento de sistemas.
+                        Participando de projetos, eventos e atividades práticas para aprimorar habilidades técnicas e
+                        profissionais.
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="education-card">
+                <i class="fa-solid fa-certificate"></i>
+                <div>
+                    <span class="education-date">2026 - Atualmente</span>
+                    <h3>Curso IBM</h3>
+                    <h4>Fundamentos da Computação em Nuvem</h4>
+                    <p>
+                        O curso IBM Fundamentos da Computação em Nuvem oferece uma introdução aos princípios dos modelos
+                        IaaS, PaaS e SaaS, além das características necessárias da computação em nuvem.
+                        Dentro do curso aprendemos a analisar desafios, aplicar práticas de governança e segurança, e
+                        lidar com ambientes multi-cloud.
                     </p>
                 </div>
             </div>
@@ -258,21 +312,37 @@
         <div class="container">
             <h2 class="section-title">Entre em <span>contato</span></h2>
             <p class="section-description">
-                Nome: Guilherme Pereira Dos Santos Silva<br>
                 Quer conversar, trocar ideias ou conhecer meus projetos? Entre em contato comigo pelas redes abaixo!
+            </p>
+            <p class="section-description"> <i class="fa-solid fa-user"></i> <span>Guilherme Pereira Dos Santos
+                    Silva</span></p>
+            <p class="section-description"> <i class="fa-solid fa-location-dot"></i>
+                Caraguatatuba, SP - Brasil
             </p>
 
             <div class="contact-links">
-                <a href="https://wa.me/5512983160096?text=Seu%20nome%3A%20%0AO%20que%20deseja%3A%20" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/5512983160096?text=Seu%20nome%3A%20%0AO%20que%20deseja%3A%20" target="_blank"
+                    rel="noopener noreferrer" class="whatsapp-link">
                     <i class="fa-brands fa-whatsapp"></i> Whatsapp
+                    <span class="whatsapp-tooltip">(12) 98316-0096</span>
                 </a>
-                <a href="https://www.instagram.com/guipdev?rptxt=Y3NhcWdieTg4b2ph" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/guipdev?rptxt=Y3NhcWdieTg4b2ph" target="_blank"
+                    rel="noopener noreferrer" class="instagram-link">
                     <i class="fa-brands fa-instagram"></i> Instagram
+                    <span class="instagram-tooltip">@guipdev</span>
                 </a>
-                <a href="https://github.com/GuilhermePereira-Santos" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/guilherme-pereira-2783b53a6/" target="_blank"
+                    rel="noopener noreferrer" class="linkedin-link">
+                    <i class="fa-brands fa-linkedin"></i> LinkedIn
+                    <span class="linkedin-tooltip">Guilherme Pereira</span>
+                </a>
+                <a href="https://github.com/GuilhermePereira-Santos" target="_blank" rel="noopener noreferrer"
+                    class="github-link">
                     <i class="fa-brands fa-github"></i> GitHub
+                    <span class="github-tooltip">GuilhermePereira-Santos</span>
                 </a>
-                <a href="https://mail.google.com/mail/u/1/#inbox?compose=CllgCJvkXFdxcvhsggrJctrbJCZmxQWPHHGWLbHWPZHKKtTBmBKkgrsPKWgHrHWKPfwnpWtngLV" class="email-link">
+                <a href="https://mail.google.com/mail/u/1/#inbox?compose=CllgCJvkXFdxcvhsggrJctrbJCZmxQWPHHGWLbHWPZHKKtTBmBKkgrsPKWgHrHWKPfwnpWtngLV"
+                    class="email-link">
                     <i class="fa-solid fa-envelope"></i> E-mail
                     <span class="email-tooltip">guilhermep.contato021@gmail.com</span>
                 </a>
@@ -280,24 +350,112 @@
         </div>
     </section>
 
-    <p class="text-center text-black">Todos os Direitos Reservados a Guilherme Pereira © • 2026</p>
-    <!-- https://www.caracteresespeciais.com.br/artigos/simbolos-copyright-marca-registrada-tm -->
+    <footer class="py-5 mt-5 border-top border-secondary">
+        <div class="container-fluid">
+            <div class="container">
+                <!-- <div class="row gy-4 text-white">
+                    <div class="col-12 col-md-4">
+                        <a class="navbar-brand fw-bold fs-4 d-flex align-items-center mb-2 logo" href="#">
+                            <span class="text-primary-custom me-2 fa-solid fa-code"></span></a>
+                        <p class="text-muted small">Desenvolvedor Aprendiz<br>Solucionando problemas com códigos e criando experiências incríveis.</p>
+                    </div>
 
+                    <div class="col-6 col-md-4">
+                        <h5 class=" mb-3 fs-6">N A V E G A Ç Ã O</h5>
+                        <ul class="list-unstyled d-flex flex-column gap-2 text-muted small">
+                            <li><a href="#inicio" class="text-decoration-none text-muted nav-link-footer">Início</a>
+                            </li>
+                            <li><a href="#sobre" class="text-decoration-none text-muted nav-link-footer">Sobre</a></li>
+                            <li><a href="#habilidades"
+                                    class="text-decoration-none text-muted nav-link-footer">Habilidades</a></li>
+                            <li><a href="#educacao" class="text-decoration-none text-muted nav-link-footer">Educação</a>
+                            </li>
+                            <li><a href="#projetos" class="text-decoration-none text-muted nav-link-footer">Projetos</a>
+                            </li>
+                            <li><a href="#contato" class="text-decoration-none text-muted nav-link-footer">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-4 social-links">
+                        <h5 class="mb-3 fs-6">S O C I A L</h5>
+                        <div class="d-flex flex-wrap gap-3">
+                            <a href="https://www.instagram.com/guipdev?rptxt=Y3NhcWdieTg4b2ph" target="_blank"
+                                rel="noopener noreferrer" aria-label="Instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <br>
+                            <a href="https://wa.me/5512983160096?text=Seu%20nome%3A%20%0AO%20que%20deseja%3A%20" target="_blank" rel="noopener noreferrer"
+                                aria-label="WhatsApp">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                            <br>
+                            <a href="mailto:guilhermep.contato021@gmail.com" target="_blank" rel="noopener noreferrer"
+                                aria-label="Email">
+                                <i class="fa-brands bi bi-envelope"></i>
+                            </a>
+                            <br>
+                            <a href="https://www.linkedin.com/in/guilherme-pereira-2783b53a6/" target="_blank"
+                                rel="noopener noreferrer" aria-label="LinkedIn">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <br>
+                            <a href="https://github.com/GuilhermePereira-Santos" target="_blank" rel="noopener noreferrer"
+                                aria-label="GitHub">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div> --->
+                <h3 class="text-center">⚠️Área em Desenvolvimento⚠️</h3>
+                <br>
+                <p class="text-center text-white">© 2026 • Guilherme Pereira Dos Santos Silva. Todos os direitos
+                    reservados.
+                </p>
+                <!-- https://www.caracteresespeciais.com.br/artigos/simbolos-copyright-marca-registrada-tm -->
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <script>
         // animação
         const skillsSection = document.querySelector("#habilidades");
-        const progressBars = document.querySelectorAll(".progress-bar");
+        const progressBars = skillsSection.querySelectorAll(".progress-bar");
 
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
+
                 if (entry.isIntersecting) {
-                    progressBars.forEach(bar => bar.style.width = bar.dataset.width);
-                    observer.unobserve(skillsSection);
+                    // Preenche as barras ao entrar na seção
+                    progressBars.forEach(bar => {
+                        bar.style.width = bar.dataset.width;
+                    });
+
+                } else {
+                    // Reseta as barras ao sair da seção
+                    progressBars.forEach(bar => {
+                        bar.style.width = "0";
+                    });
                 }
+
             });
-        }, { threshold: 0.4 });
+        }, {
+            threshold: 0
+        });
+
+        observer.observe(skillsSection);
+        // const skillsSection = document.querySelector("#habilidades");
+        // const progressBars = document.querySelectorAll(".progress-bar");
+
+        // const observer = new IntersectionObserver((entries) => {
+        //     entries.forEach(entry => {
+        //         if (entry.isIntersecting) {
+        //             progressBars.forEach(bar => bar.style.width = bar.dataset.width);
+        //             observer.unobserve(skillsSection);
+        //         }
+        //     });
+        // }, { threshold: 0.4 });
 
         observer.observe(skillsSection);
 
@@ -311,4 +469,17 @@
         });
     </script>
 </body>
+
 </html>
+<!-- <section class="portfolio-section alternate is-under-construction" id="projetos">
+
+    <div class="container">
+        Todo o conteúdo original dos projetos
+    </div>
+
+    <div class="construction-notice">
+        <i class="fa-solid fa-screwdriver-wrench"></i>
+        Área em reforma
+    </div>
+
+</section> -->
