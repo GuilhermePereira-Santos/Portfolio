@@ -57,6 +57,12 @@ nav a {
     transition: .3s ease;
 }
 nav a:hover, nav a.active { color: #b74b4b; border-color: #b74b4b; }
+.logo-navbar {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-right: 10px;
+}
 /* começo */
 .home {
     min-height: 100vh;
@@ -116,7 +122,7 @@ nav a:hover, nav a.active { color: #b74b4b; border-color: #b74b4b; }
 }
 /* animaçao */
 .typing-text span { position: relative; color: #b74b4b; }
-.typing-text span::before { content: "Estudante de DS"; animation: words 12s infinite; }
+.typing-text span::before { content: "Desenvolvedor"; animation: words 12s infinite; }
 .typing-text span::after {
     position: absolute;
     right: -8px;
@@ -128,10 +134,10 @@ nav a:hover, nav a.active { color: #b74b4b; border-color: #b74b4b; }
     animation: typing 3s steps(20) infinite;
 }
 @keyframes words {
-    0%, 24% { content: "Estudante de DS"; }
-    25%, 49% { content: "Desenvolvedor Web"; }
-    50%, 74% { content: "Jovem Ambicioso"; }
-    75%, 100% { content: "Futuro Programador"; }
+    0%, 24% { content: "Desenvolvedor"; }
+    25%, 49% { content: "Empreendedor"; }
+    50%, 74% { content: "Estudante"; }
+    75%, 100% { content: "Determinado"; }
 }
 @keyframes typing {
     0%, 10%, 90%, 100% { width: calc(100% + 8px); }
@@ -201,7 +207,7 @@ nav a:hover, nav a.active { color: #b74b4b; border-color: #b74b4b; }
     background: linear-gradient(90deg, #8f3030, #e05b5b);
     border-radius: 2rem;
     box-shadow: 0 0 8px #b74b4b, 0 0 15px #b74b4b66;
-    transition: width 1.8s ease-in-out;
+    transition: width 2.2s ease-in-out;
 }
 .personal-skill { gap: 2rem; margin-bottom: 2.5rem; }
 .personal-skill i { color: #b74b4b; font-size: 3rem; }
@@ -259,7 +265,92 @@ nav a:hover, nav a.active { color: #b74b4b; border-color: #b74b4b; }
     transition: .3s ease;
 }
 .email-link:hover .email-tooltip { opacity: 1; visibility: visible; transform: translateX(-50%) translateY(0); }
+.whatsapp-tooltip {
+    position: absolute;
+    z-index: 10;
+    top: calc(100% + 12px);
+    left: 50%;
+    padding: 1rem 1.5rem;
+    color: #fff;
+    background: #151515;
+    border: 1px solid #b74b4b;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-50%) translateY(-5px);
+    transition: .3s ease;
+}
+.whatsapp-link:hover .whatsapp-tooltip { opacity: 1; visibility: visible; transform: translateX(-50%) translateY(0); }
+.github-tooltip {
+    position: absolute;
+    z-index: 10;
+    top: calc(100% + 12px);
+    left: 50%;
+    padding: 1rem 1.5rem;
+    color: #fff;
+    background: #151515;
+    border: 1px solid #b74b4b;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-50%) translateY(-5px);
+    transition: .3s ease;
+}
+.github-link:hover .github-tooltip { opacity: 1; visibility: visible; transform: translateX(-50%) translateY(0); }
+.instagram-tooltip {
+    position: absolute;
+    z-index: 10;
+    top: calc(100% + 12px);
+    left: 50%;
+    padding: 1rem 1.5rem;
+    color: #fff;
+    background: #151515;
+    border: 1px solid #b74b4b;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-50%) translateY(-5px);
+    transition: .3s ease;
+}
+.instagram-link:hover .instagram-tooltip { opacity: 1; visibility: visible; transform: translateX(-50%) translateY(0); }
+.linkedin-tooltip {
+    position: absolute;
+    z-index: 10;
+    top: calc(100% + 12px);
+    left: 50%;
+    padding: 1rem 1.5rem;
+    color: #fff;
+    background: #151515;
+    border: 1px solid #b74b4b;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-50%) translateY(-5px);
+    transition: .3s ease;
+}
+.linkedin-link:hover .linkedin-tooltip { opacity: 1; visibility: visible; transform: translateX(-50%) translateY(0); }
+/* rodape */
 
+footer {
+    position: 0;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.5rem 9%;
+    background: #030303;
+    border-bottom: 1px solid #b74b4b;
+    border-top: 10px solid #b74b4b;
+    border-radius: 18px 18px 0 0;
+}
 @media (max-width: 995px) {
     header { padding: 1.5rem 4%; }
     nav { gap: 1.5rem; }
